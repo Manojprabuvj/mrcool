@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(void) 
 {
-	int le,b,h;
-	scanf("%d %d %d",&le,&b,&h);
+	int ko,m,p;
+	scanf("%d %d %d",&ko,&m,&p);
 	int vol,ta;
-	vol=le*b*h;
-	ta=2*((le*b)+(b*h)+(h*le));
+	vol=ko*m*p;
+	ta=2*((ko*m)+(m*p)+(p*ko));
 	printf("\n%d",vol);
 	printf("\n%d",ta);
 }
