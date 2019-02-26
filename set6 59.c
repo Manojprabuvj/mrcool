@@ -8,6 +8,6 @@ while(n!=0)
   n=n/10;
   k++;
 }
-printf("%d",c);
+printf("%d",k);
 return 0;
 }
