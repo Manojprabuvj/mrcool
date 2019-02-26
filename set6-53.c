@@ -9,6 +9,8 @@ int main(void)
 		t=n%10;
 		sum=sum+t;
 		n=n/10;
+		
+		
 	}
 	printf("\n%d",sum);
 	return 0;
