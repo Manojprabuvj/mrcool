@@ -9,4 +9,5 @@ int main(void)
     fact=fact*i;
   }
   printf("%d",fact);
+  return 0;
 }
