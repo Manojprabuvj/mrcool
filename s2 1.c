@@ -2,12 +2,11 @@
 #include<math.h>
 int main()
 {
-int num,m,k;
+int vj,m,k;
 printf("enter  base value");
-scanf("%d",&num);
+scanf("%d",&vj);
 printf("enter exponent value");
 scanf("%d",&m);
-k=pow(num,m);
+k=pow(vj,m);
 printf("the value is %d",k);
-  return 0;
 }
