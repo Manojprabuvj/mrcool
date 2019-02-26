@@ -9,16 +9,16 @@ int main()
     scanf("%s", s1);
     length = strlen(s1);
     for(i=0;i < length ;i++){
-        if(s1[i] != string1[length-i-1]){
+        if(s1[i] != s1[length-i-1]){
             flag = 1;
             break;
    }
 } 
     if (flag)
     {
-        printf("%s is not a palindrome",1);
+        printf("%s is not a palindrome",s1);
     }    
     else
     {
-        printf("%s is a palindrome", 1);
+        printf("%s is a palindrome",s1);
  }
