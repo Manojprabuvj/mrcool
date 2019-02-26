@@ -14,5 +14,4 @@ int main()
 			printf("%c",ch[i]);
 		}
 	}
-	return 0;
 }
